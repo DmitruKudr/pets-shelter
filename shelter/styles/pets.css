@@ -1,0 +1,32 @@
+.header-background {
+    padding: 30px 0;
+    background: #FFFFFF;
+}
+.logo:hover .logo-title {
+    color: #F1CDB3;
+    transition: all .3s ease-in-out;
+}
+
+
+.pets {
+    padding: 80px 0 100px 0;
+    background: #f6f6f6;
+}
+.pets-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.cards-container {
+    width: 100%;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 270px);
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+}

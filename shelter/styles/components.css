@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.nav-menu {
+    display: flex;
+    gap: 35px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    width: 270px;
+    padding-bottom: 30px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    transition: all .3s ease-in-out;
+
+    cursor: pointer;
+}
+.card img {
+    width: 270px;
+    height: 270px;
+}
+.card:hover {
+    background: #FFFFFF;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+.card:hover .button-secondary {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+    transition: all .3s ease-in-out;
+}
+
+
+.footer {
+    padding-top: 40px;
+    background: url('../assets/noise.png'), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .content {
+    padding-top: 16px;
+    display: flex;
+    gap: 160px;
+}
+.footer .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.footer .contacts-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer .contacts-wrapper:hover h4 {
+    color: #FFFFFF;
+    transition: .3s all ease-in-out;
+}
+.footer .locations {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.footer .locations img {
+    width: 22px;
+    height: 32px;
+}

@@ -1,0 +1,24 @@
+.color-dark-s {
+    color: #CDCDCD;
+    transition: .3s all ease-in-out;
+}
+.color-light-xl {
+    color: #FFFFFF;
+    transition: .3s all ease-in-out;
+}
+.color-dark-l {
+    color: #545454;
+    transition: .3s all ease-in-out;
+}
+.color-dark-xl {
+    color: #4C4C4C;
+    transition: .3s all ease-in-out;
+}
+.color-dark-3xl {
+    color: #292929;
+    transition: .3s all ease-in-out;
+}
+.color-primary {
+    color: #F1CDB3;
+    transition: .3s all ease-in-out;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles/pets.css">
+        <link rel="stylesheet" href="styles/components.css">
+        <link rel="stylesheet" href="styles/fonts.css">
+        <link rel="stylesheet" href="styles/colors.css">
+        <link rel="stylesheet" href="styles/ui.css">
+        <link rel="stylesheet" href="styles/media.css">
+
+        <script src="scripts/data.js"></script>
+        <script defer src="scripts/card.js"></script>
+        <script defer src="scripts/burger.js"></script>
+        <script defer src="scripts/pagination.js"></script>
+
+        <title>Pets</title>
+    </head>
+
+    <body>
+
+        <div class="header-background">
+        <div class="wrapper">
+        
+            <header class="header">
+                <a href="main.html">
+                <h1 class="logo">
+                    <span class="logo-title color-dark-l">Cozy House</span>
+                    <span class="logo-subtitle color-dark-3xl">Shelter for pets in Boston</span>
+                </h1>
+                </a>
+                <div id="nav-container">
+                    <nav class="nav-menu white">
+                        <a class="color-dark-l" href="main.html">About the shelter</a>
+                        <a class="color-dark-l active">Our pets</a>
+                        <a class="color-dark-l" href="main.html#help">Help the shelter</a>
+                        <a class="color-dark-l" href="#contacts">Contacts</a>
+                    </nav>
+                </div>
+                <div id="burger" class="burger-black">
+                    <span></span>
+                </div>
+            </header>
+
+        </div>
+        </div>
+
+        <main class="pets">
+        <div class="wrapper">
+
+            <div class="pets-content">
+                <h3 class="color-dark-l centralized">
+                    Our friends who<br>
+                    are looking for a house
+                </h3>
+                <div class="cards-container"></div>
+                <div class="navigation">
+                    <button class="button-icon inactive">&lt;&lt;</button>
+                    <button class="button-icon inactive">&lt;</button>
+                    <button class="button-icon active">1</button>
+                    <button class="button-icon">></button>
+                    <button class="button-icon">>></button>
+                </div>
+            </div>
+
+        </div>
+        </main>
+
+        <footer class="footer" id="contacts">
+        <div class="wrapper">
+        
+            <div class="footer-content">
+                <div class="content">
+                <div class="contacts">
+                    <h3 class="color-light-xl">
+                        For questions<br>
+                        and suggestions
+                    </h3>
+                    <a class="contacts-wrapper" href="mailto:email@shelter.com">
+                        <img src="icons/mail.png" alt="icon">
+                        <h4 class="color-primary">email@shelter.com</h4>
+                    </a> 
+                    <a class="contacts-wrapper" href="tel:+136745677554">
+                        <img src="icons/phone.png" alt="icon">
+                        <h4 class="color-primary">+13 674 567 75 54</h4>
+                    </a>
+                </div>
+                <div class="locations">
+                    <h3 class="color-light-xl">
+                        We are waiting<br>
+                        for your visit
+                    </h3>
+                    <a class="contacts-wrapper" target="_blank" href="https://www.google.com/maps/search/1+Central+Street,+Boston+(entrance+from+the+store)/@42.314232,-71.1350924,11z/data=!3m1!4b1?hl=RU">
+                        <img src="icons/pin.png" alt="icon">
+                        <h4 class="color-primary">
+                            1 Central Street, Boston<br>
+                            (entrance from the store)
+                        </h4>
+                    </a> 
+                    <a class="contacts-wrapper" target="_blank" href="https://www.google.com/maps/search/18+South+Park,+London+/@51.5142165,-0.2373714,12z/data=!3m1!4b1?hl=RU">                            <img src="icons/pin.png" alt="icon">
+                        <h4 class="color-primary">
+                            18 South Park, London 
+                        </h4>
+                    </a>
+                </div>
+                </div>
+                <img src="assets/footer-puppey.png" alt="footer-puppey">
+            </div>
+        
+        </div>
+        </footer>
+
+        <div class="modal-wrapper">
+            <div class="modal">
+                <button class="button-icon">×</button>
+                <div class="modal-window">
+                    <img src="assets/pets-jennifer.png" alt="charley">
+                    <div class="content">
+                        <div>
+                            <h3>Jennifer</h3>
+                            <h4>Dog - Labrador</h4>
+                        </div>
+                        <h5>
+                            Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. 
+                            This girl really enjoys being able to go outside to run and play, 
+                            but won't hesitate to play up a storm in the house if she has all of her favorite toys.
+                        </h5>
+                        <ul class="modal-window-list">
+                            <li>Age: 2 month</li>
+                            <li>Inoculations: none</li>
+                            <li>Diseases: none</li>
+                            <li>Parasites: none</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>

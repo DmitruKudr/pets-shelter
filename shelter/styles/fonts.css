@@ -1,0 +1,143 @@
+.centralized {
+    text-align: center;
+}
+
+.logo-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    transition: all .3s ease-in-out;
+}
+.logo-subtitle {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+}
+
+.pets-card-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+
+    color: #545454;
+}
+
+.donation-description {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #B2B2B2;
+}
+
+
+h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+}
+
+h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+}
+
+h4 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+}
+
+h5, li {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+}
+
+p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#burger-menu a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+
+    cursor: pointer;
+}
+
+.nav-menu a {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+
+    cursor: pointer;
+}
+
+#burger-menu a.color-dark-s:hover,
+.nav-menu a.color-dark-s:hover {
+    color: #FAFAFA;
+    transition: .3s all ease-in-out;
+}
+
+#burger-menu a.color-dark-s.active,
+.nav-menu a.color-dark-s.active {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+    transition: .3s all ease-in-out;
+    
+    cursor: default;
+}
+
+#burger-menu a.color-dark-l:hover,
+.nav-menu a.color-dark-l:hover {
+    color: #292929;
+    transition: .3s all ease-in-out;
+}
+
+#burger-menu a.color-dark-l.active,
+.nav-menu a.color-dark-l.active {
+    color: #292929;
+    border-bottom: 3px solid #F1CDB3;
+    transition: .3s all ease-in-out;
+
+    cursor: default;
+}
